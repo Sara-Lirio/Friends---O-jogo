@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;  
+}
+
+body{
+    background-image: url(../Pictures/Pictures/background-gameover.PNG);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    color: white;
+    font-size: 190px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.jogar {
+    background-color: rgb(250,206,20);
+    color: rgb(153,115,178);
+    border: solid white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    padding: 13px 19px;
+    margin-left:540px;
+}
+
+.jogar:hover {
+    background-color: rgb(153,115,178);
+    color: rgb(250,206,20);
+}

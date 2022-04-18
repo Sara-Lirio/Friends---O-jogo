@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;  
+}
+
+body{
+    background-color: rgb(179,74,88);
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    
+}
+
+p{
+    font-family: 'Nova Mono', monospace;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+.section-level1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.section-level2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+
+
+.section-level3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+
+.div-level1, .div-level2{
+    width: 65%;
+    margin-left: 40px ;
+}
+
+.div-level3{
+    width:90%;
+    margin-left: 60px ;
+}
+
+.monica-frango {
+    width: 400px;
+}
+
+.monica-peru {
+   width: 30%;
+   
+}
+
+.botao1, .botao2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+	border: 2px black solid;
+    border-radius: 18px;
+    padding: 0.5em 1em;
+    list-style-type: none;
+    background-color: rgb(81,116,173);
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.imagem-botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+	border: 2px black solid;
+    border-radius: 18px;
+    padding: 0.5em 1em;
+    list-style-type: none;
+    background-color: rgb(81,116,173);
+  
+
+}
+

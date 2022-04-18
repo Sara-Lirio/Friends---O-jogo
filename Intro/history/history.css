@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;  
+}
+
+body {
+    background-color: rgb(208,187,108);
+}
+
+.logo-friends {
+	width:25% ;
+	margin: 90px 0 0 1000px;
+}
+
+p {
+    font-size: 2.2em;
+	font-family: 'Nova Mono', monospace;
+	text-align: justify;
+    margin: 2.55em 0 1.1em 0;
+}
+
+a {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+	border: 5px black solid;
+    border-radius: 18px;
+    padding: 0.5em 1em;
+    list-style-type: none;
+}
+
+.voltar{
+    background-color: rgb(81,116,173);
+}
+
+.escolha {
+	background-color: rgb(179,74,88);
+}
+
+div {
+	width: 60%;
+	margin: 150px 30px 0 550px;
+}
+
+nav {
+	padding-top:30px ;
+	display: flex;
+	justify-content: space-around;
+}
