@@ -1,8 +1,52 @@
+/* Media Query - Index e History */
 /* Tablet 768px */
 
 @media (max-width: 768px) {
     .central-park {
         width: 700px;
         margin-top: 150px;
+    }
+
+    div {
+        margin-left: 7em;
+}
+}
+
+/* Mobile L - 425px */
+
+@media (max-width: 425px) {
+    .central-park {
+        width: 400px;
+        margin-top: 150px;
+    }
+
+    div {
+        width: 85%;
+        margin-left: 2.5em;
+        border-radius: 0.9em;
+        border: 0.4em;
+        padding: 0.1em 2em 0.5em 2em;
+    }
+
+
+    .placa-open {
+        width: 240px;
+    }
+}
+
+/* Mobile M - 375px */
+
+@media (max-width: 375px) {
+    .central-park {
+        width: 320px;
+        margin-top: 180px;
+    }
+
+    div {
+        margin-left: 2em;
+    }
+
+    .placa-open {
+        width: 220px;
     }
 }
