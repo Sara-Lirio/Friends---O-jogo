@@ -1,55 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	text-decoration: none;  
+	text-decoration: none;
 }
 
 body {
-    background-color: rgb(208,187,108);
+	background-image: url(../../Pictures/Pictures/background-centrak].jpg);
+	background-size: contain;
+	background-position: center;
 }
 
-.logo-friends {
-	width:25% ;
-	margin: 60px 0 40px 500px;
+.open {
+	display: block; 
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 p {
-    font-size: 18px;
-	font-family: 'Nova Mono', monospace;
+	font-size: 19px;
+	font-family: 'Fredericka the Great', cursive;
 	text-align: justify;
-    margin: 0.9em 0 2.5em 0;
+	margin-bottom: 2em;
+	margin-top: 3em;
+	color: white;
 }
 
 a {
-    font-size: 21px;
-    text-transform: uppercase;
-    font-family: 'Cuprum', sans-serif;
-    color: white;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-family: 'Cuprum', sans-serif;
+	color: white;
 	border: 2px black solid;
-    border-radius: 12px;
-    padding: 0.4em 0.7em;
-    list-style-type: none;
+	border-radius: 12px;
+	padding: 0.4em 0.7em;
+	list-style-type: none;
 }
 
-.voltar{
-    background-color: rgb(81,116,173);
+.voltar {
+	background-color: rgb(81, 116, 173);
 }
 
 .escolha {
-	background-color: rgb(179,74,88);
+	background-color: rgb(179, 74, 88);
 }
 
 div {
-	width: 60%;
-	margin-left: 260px;
+	width: 70%;
+	margin-left: 14em;
+	background-color: #010f08;
+	padding-left: 3em;
+	padding-right: 3em;
+	border-radius: 2em;
+	border: 0.5em black solid;
 }
 
 nav {
-	padding-top:30px ;
+	padding-top: 30px;
 	display: flex;
 	justify-content: space-around;
 }

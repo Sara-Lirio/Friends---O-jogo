@@ -1,0 +1,8 @@
+/* Tablet 768px */
+
+@media (max-width: 768px) {
+    .central-park {
+        width: 700px;
+        margin-top: 150px;
+    }
+}

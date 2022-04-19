@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 * {
 	margin: 0;
@@ -14,39 +14,54 @@ body {
 
 .central-park{
     width: 55%;
-    margin: 4em 0 4em 20em ;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 8%;
+    --cor-neon: rgb(250, 250, 84);
+
+}
+
+img {
+    animation: neon 5s alternate infinite ease-in-out;
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+        filter: drop-shadow(0 0 30px var(--cor-neon))
+    }
 }
 
 nav{
     display: flex;
     justify-content: center;
+    margin-top: 3em;
 }
 
 li {
-    border: 5px black solid;
+    border: 0.25em black solid;
     border-radius: 9px;
-    padding: 0.5em 1em;
+    padding: 0.5em 1em 0.7em 1em;
     list-style-type: none;
     margin-top: 30px;
-    background-color: brown;
+    background-color: #003226;
+
 }
 
-ul :hover {
-    background-color: #003226;
+nav :hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 a {
-    font-size: 2.2em;
+    font-size: 200%;
     text-transform: uppercase;
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
     color: white;
-}
-
-p {
-    font-size: 1.1em;
-    font-family: 'Inter', sans-serif;
-    color: white;
-    text-align: center;
-    margin: 2.55em 0 1.1em 0;
+    font-weight: 200;
+    padding: 0.5em 1em 0.7em 1em;
 }
 
