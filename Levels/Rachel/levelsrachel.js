@@ -28,6 +28,7 @@ function redirecionar1() {
     window.location.href = "./level2.html";
 }
 
+// Fase 2
 function trabalhoRachel() {
     var resposta2 = "b"
     var pergunta2 = prompt("Afinal, qual foi o primeiro emprego que Rachel conseguiu?\na,b ou c")
@@ -52,6 +53,7 @@ function redirecionar2() {
     window.location.href = "./level3.html";
 }
 
+// Fase 3
 function empregoSonhos() {
     var resposta3 = "n"
     var pergunta3 = prompt("Será que o novo emprego de Rachel é o emprego do sonhos?\n(s)Sim ou (n)Não")

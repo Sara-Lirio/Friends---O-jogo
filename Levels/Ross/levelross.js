@@ -3,7 +3,7 @@ var opcaoB = "b"
 var opcaoC = "c"
 var sim = "s"
 
-
+// Fase 1
 function deixarRecado() {
     var resposta1 = "n"
     var pergunta1 = prompt("E agora, Ross deixa o recado para Rachel ? \n(s)Sim ou (n)Não")
@@ -25,6 +25,7 @@ function redirecionar1() {
     window.location.href = "./level2.html";
 }
 
+// Fase 2
 function qualAmigo() {
     var resposta2 = "b"
     var pergunta2 = prompt("Qual amigo de Ross teria criado essa teoria?\na,b ou c")
@@ -49,6 +50,7 @@ function redirecionar2() {
     window.location.href = "./level3.html";
 }
 
+// Fase 3
 function oBaile() {
     var resposta3 = "c"
     var pergunta3 = prompt("Eai Ross, me diga o que você vai fazer?\na,b ou c")
@@ -73,6 +75,7 @@ function redirecionar3() {
     window.location.href = "./level4.html";
 }
 
+// Fase 4
 function casal() {
     var resposta4 = "a"
     var pergunta4 = prompt("E agora, o que será dessa casal?\na,b ou c")
