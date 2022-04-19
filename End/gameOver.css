@@ -1,40 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-body{
-    background-image: url(../Pictures/Pictures/background-gameover.PNG);
+body {
+    background-image: url(../Pictures/Pictures/background-index.jpg);
+
 }
 
-h1 {
-    font-family: 'Pacifico', cursive;
-    font-weight: 100;
-    color: white;
-    font-size: 190px;
-    text-align: center;
-    margin-top: 140px;
+img {
+    animation: neon 1s alternate infinite ease;
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+
+    to {
+        filter: drop-shadow(0 0 20px var(--cor-neon))
+    }
+}
+
+.gameover {
+    --cor-neon: rgb(196, 255, 247);
+    margin: 8px 260px 40px 260px;
+}
+
+.gif-ross {
+    margin: 80px 00px 0px 460px;
+    width: 350px;
+    border-radius: 8px;
 }
 
 .jogar {
-    background-color: rgb(250,206,20);
-    color: rgb(153,115,178);
-    border: solid white;
-    border-radius: 12px;
+    border: 0.1em black solid;
+    border-radius: 9px;
+    padding: 0.3em .6em 0.3em .6em;
+    list-style-type: none;
+    margin-top: 30px;
+    background-color: #003226;
+    font-size: 24px;
     text-transform: uppercase;
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    padding: 13px 19px;
-    margin-left:540px;
-}
-
-.jogar:hover {
-    background-color: rgb(153,115,178);
-    color: rgb(250,206,20);
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    margin-left: 510px;
+   
 }

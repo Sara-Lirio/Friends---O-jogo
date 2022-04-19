@@ -60,9 +60,16 @@ p{
     margin-left: 60px ;
 }
 
-.monica-frango {
-    width: 400px;
+.monica-frango, .monica-frango2 {
+    width: 350px;
+    height: 420px;
+    margin-top: 200px;
 }
+
+.monica-frango1, .monica-frango3 {
+    display: none;
+}
+
 
 .monica-peru {
    width: 30%;
