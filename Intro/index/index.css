@@ -23,7 +23,7 @@ body {
 }
 
 img {
-    animation: neon 5s alternate infinite ease-in-out;
+    animation: neon 1s alternate infinite ease-in-out;
 }
 
 @keyframes neon {

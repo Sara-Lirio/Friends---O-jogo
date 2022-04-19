@@ -1,4 +1,4 @@
-/* Media Query - Index e History */
+/* Media Query - Index,History e Rules */
 /* Tablet 768px */
 
 @media (max-width: 768px) {
@@ -39,7 +39,7 @@
 @media (max-width: 375px) {
     .central-park {
         width: 320px;
-        margin-top: 180px;
+        margin-top: 140px;
     }
 
     div {
@@ -49,4 +49,24 @@
     .placa-open {
         width: 220px;
     }
+  
+}
+
+/* Mobile S - 320px */
+
+@media (max-width: 320px) {
+   
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        align-items: center;
+        
+    }
+    
+    a {
+        font-size: 19px;
+        padding: 0.4em 0.6em;
+        margin-bottom: 10px;
+}
 }
