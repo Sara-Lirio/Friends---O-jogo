@@ -12,9 +12,9 @@
         margin-top: 40px;
     }
     
-    div, .div-level2{
+    .div-level1, .div-level2{
         width: 700px;
-        margin: auto;
+        margin: 30px;
         padding: 0;
     }
     

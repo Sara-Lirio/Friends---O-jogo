@@ -1,0 +1,60 @@
+/* Media Query - youWin e gameOver */
+/* Tablet 768px */
+
+@media (max-width: 768px) {
+    .jogar {
+        margin-left:300px;
+    }
+    .imagens{
+        width: 500px;
+        margin-left: 140px;
+    }
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    h1 {
+        font-size: 70px;
+        padding-bottom: 50px;
+    }
+
+    .imagens{
+        width: 360px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .jogar {
+        margin-left:120px;        
+    }
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    .imagens{
+        width: 345px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .jogar {
+        margin-left: 100px;        
+    }
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    .imagens{
+        width: 290px;
+    }
+
+    .jogar {
+        margin-left: 80px; 
+        font-size: 18px;       
+        padding: 8px 10px;
+    }
+}
