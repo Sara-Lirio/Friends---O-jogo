@@ -6,24 +6,24 @@
         display: flex;
         flex-direction: column;
         margin: 0;
-        width: 750px;
+        width: 46.875em
     }
     .section-level3{
-        margin-top: 40px;
+        margin-top: 2.5em;
     }
     
     .div-level1, .div-level2{
-        width: 700px;
-        margin: 30px;
+        width: 43.75em;
+        margin: 1.875em;
         padding: 0;
     }
     
     h1 {
-        font-size: 25px;
+        font-size: 1,5625em;
     }
 
     p{
-        font-size: 15px;
+        font-size: 0.9375em;
     }    
     
     .monica-frango, .monica-frango2 {
@@ -31,54 +31,64 @@
     }
 
     .monica-frango1, .monica-frango3{
-        width: 250px;
+        width: 15.625em;
         display: inline;
-        margin-left: 170px;
+        margin-left: 10.625em;
     }
 
-    .botao1{
-        font-size: 18px;
-        border-radius: 12px;
+    .botao1, .botao2{
+        font-size: 1.125em;
+        border-radius: 0.75em;
         padding: 0.5em 1em;
-        margin:20px 210px;
+        margin:1.25em 13.125em;
     }
     
     .botao2{
-        font-size: 18px;
-        border-radius: 12px;
-        padding: 0.5em 1em;
-        margin:20px 310px;
+        margin:1.25em 19.375em;
     }
 }
 
 /* Mobile L - 425px */
 @media (max-width: 425px) { 
     .botao1{
-        font-size: 22px;
-        margin:20px 180px;
+        font-size: 1.375em;
+        margin:1.25em 11.25em;
     }
     
     .section-level2, .section-level3{
-        width: 410px;
+        width: 25.625em;
     }
 
     .div-level2, .div-level3{
-        width: 400px;
-        margin: 30px;
+        width: 25em;
+        margin: 1.875em;
     }
 
     .div-level2 h1, .div-level2 p{
-        width: 365px;
+        width: 22.8125em;
     }
     .div-level3 h1, .div-level3 p{
-        width: 365px;
+        width: 22.8125em;
     }
 
     .monica-frango3{
         margin: auto;
     }
 
+    p {
+        width: 85%;
+        margin: auto;
+        text-align: justify;
+    }
     .botao2 {
-        margin:10px 130px;
+        margin: 0.625em 8.125em;
+    }
+
+    h1 {
+        width: 85%;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: 1.85em;
+        margin-left: 2em;
     }
 }
