@@ -14,9 +14,39 @@
         align-items: center;
    }
 
+   .div-level2-texto {
+    display: flex;
+    flex-direction: column;
+   }
+
+   h1 {
+       padding: 0.5em;
+   }
+
    .imagem-botao {
        margin-left:4.2em;
    }
+
+   .botao2 {
+    margin-left: 8em;
+    margin-bottom: 1em;
+   }
+
+   .div-level2-texto p {
+       padding: 1.2em;
+       width: 100%;
+   }
+
+   .div-level3-texto p {
+    padding: 1.4em;
+    width: 100%;
+}
+
+.monica-peru{
+    width: 60%;
+    margin-left: 8em;
+}
+
 }
 
 /* Mobile L - 425px */
@@ -25,13 +55,23 @@
         width: 80%;
     }
 
+    .monica-peru{
+        width: 70%;
+        margin-left: 4em;
+    }
+
     .monica-frango{
         width: 80%;
     }
-    
-    .botao1 {
+
+    .botao1, .botao2 {
         font-size: 1.3em;
         margin-left:2em;
+    }
+
+    .botao3 {
+        margin-left: 5em;
+        font-size: 1.3em;
     }
 
     p{
@@ -53,6 +93,16 @@
         font-size: 1.15em;
         margin-left:1.7em;
     }
+
+    .botao2 {
+        margin-left: 1.7em;
+        font-size: 1.2em;
+    }
+
+    .botao3 {
+        margin-left: 5em;
+        font-size: 1.2em;
+    }
     
     p {
         font-size: 0.85em;
@@ -66,7 +116,17 @@
     }
 
     .botao1 {
-   
         margin-left:1.2em;
     }
+
+    .botao2 {
+        margin-left: 0.5em;
+        
+    }
+
+    .botao3 {
+        margin-left: 3.6em;
+      
+    }
+    
 }

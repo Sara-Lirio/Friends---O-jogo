@@ -13,8 +13,8 @@ body {
 	background-color: rgb(179, 74, 88);
 }
 
-.div-level1-titulo,
-.div-level1-texto {
+.div-level2-titulo,
+.div-level2-texto {
 	background-color: rgba(255, 255, 255, 0.5);
 	width: 85%;
 	border-radius: 1em;
@@ -22,25 +22,26 @@ body {
 
 }
 
-.div-level1-texto {
+.div-level2-texto {
 	display: flex;
-	justify-content: center;
+	align-content: space-between;
 }
 
 h1 {
 	font-family: 'Pacifico', cursive;
 	text-align: center;
+    padding-top: .5em;
 }
 
-.section-level1 {
+.section-level2 {
 	margin-top: 2em;
 }
 
 p {
 	font-family: 'Nova Mono', monospace;
-	
-	margin: auto;
-	padding: 2em;
+	width: 180%;
+	padding: 2em 5em;
+    font-size: 1em;
 }
 
 .imagem-botao div {
@@ -50,8 +51,8 @@ p {
 	justify-content: space-evenly;
 }
 
-.botao1 {
-	font-size: 2em;
+.botao2 {
+	font-size: 1.5em;
 	text-transform: uppercase;
 	font-family: 'Cuprum', sans-serif;
 	color: white;
@@ -61,4 +62,8 @@ p {
 	list-style-type: none;
 	background-color: rgb(81, 116, 173);
 	margin-left: 5em;
+}
+
+.monica-frango2 {
+    width: 80%;
 }
