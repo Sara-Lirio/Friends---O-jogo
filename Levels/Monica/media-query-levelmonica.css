@@ -2,93 +2,71 @@
 /* Tablet 768px */
 
 @media (max-width: 768px) {
-    section, .section-level2, .section-level3{
+   p {
+       width: 90%;
+   }
+
+   .div-level1-texto {
         display: flex;
         flex-direction: column;
-        margin: 0;
-        width: 46.875em
-    }
-    .section-level3{
-        margin-top: 2.5em;
-    }
-    
-    .div-level1, .div-level2{
-        width: 43.75em;
-        margin: 1.875em;
-        padding: 0;
-    }
-    
-    h1 {
-        font-size: 1,5625em;
-    }
+        margin-bottom: 2em;
+        padding: 1em 0;
+        align-items: center;
+   }
 
-    p{
-        font-size: 0.9375em;
-    }    
-    
-    .monica-frango, .monica-frango2 {
-        display: none;
-    }
-
-    .monica-frango1, .monica-frango3{
-        width: 15.625em;
-        display: inline;
-        margin-left: 10.625em;
-    }
-
-    .botao1, .botao2{
-        font-size: 1.125em;
-        border-radius: 0.75em;
-        padding: 0.5em 1em;
-        margin:1.25em 13.125em;
-    }
-    
-    .botao2{
-        margin:1.25em 19.375em;
-    }
+   .imagem-botao {
+       margin-left:4.2em;
+   }
 }
 
 /* Mobile L - 425px */
 @media (max-width: 425px) { 
-    .botao1{
-        font-size: 1.375em;
-        margin:1.25em 11.25em;
+    .imagem-botao {
+        width: 80%;
+    }
+
+    .monica-frango{
+        width: 80%;
     }
     
-    .section-level2, .section-level3{
-        width: 25.625em;
+    .botao1 {
+        font-size: 1.3em;
+        margin-left:2em;
     }
 
-    .div-level2, .div-level3{
-        width: 25em;
-        margin: 1.875em;
-    }
-
-    .div-level2 h1, .div-level2 p{
-        width: 22.8125em;
-    }
-    .div-level3 h1, .div-level3 p{
-        width: 22.8125em;
-    }
-
-    .monica-frango3{
-        margin: auto;
-    }
-
-    p {
-        width: 85%;
-        margin: auto;
-        text-align: justify;
-    }
-    .botao2 {
-        margin: 0.625em 8.125em;
+    p{
+        padding: 0;
     }
 
     h1 {
-        width: 85%;
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        font-size: 1.85em;
-        margin-left: 2em;
+        font-size: 1.6em;
+    }
+}
+
+    /* Mobile M - 375px */
+@media (max-width: 375px) { 
+    h1 {
+        font-size: 1.3em;
+    }
+
+    .botao1 {
+        font-size: 1.15em;
+        margin-left:1.7em;
+    }
+    
+    p {
+        font-size: 0.85em;
+    }
+}
+
+      /* Mobile S - 320px */
+@media (max-width: 320px) { 
+    h1 {
+        font-size: 1.1em;
+    }
+
+    .botao1 {
+   
+        margin-left:1.2em;
     }
 }

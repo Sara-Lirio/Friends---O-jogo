@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(179, 74, 88);
+}
+
+.div-level1-titulo,
+.div-level1-texto {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 85%;
+	border-radius: 1em;
+	margin: 2em auto;
+
+}
+
+.div-level1-texto {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.section-level1 {
+	margin-top: 2em;
+}
+
+p {
+	font-family: 'Nova Mono', monospace;
+	width: 92%;
+	margin: auto;
+	padding: 2em;
+}
+
+.imagem-botao div {
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+	justify-content: space-evenly;
+}
+
+.botao1 {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: 'Cuprum', sans-serif;
+	color: white;
+	border: 2px black solid;
+	border-radius: 0.8em;
+	padding: 0.5em 1em;
+	list-style-type: none;
+	background-color: rgb(81, 116, 173);
+	margin-left: 5em;
+}
