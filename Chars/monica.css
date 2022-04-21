@@ -17,8 +17,7 @@ h1 {
     margin-top: 70px;
     text-align: center;
     font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    
+    font-size: 40px; 
 }
 
 p{
@@ -65,7 +64,6 @@ nav {
 	padding-top:30px ;
 	display: flex;
 	justify-content: space-between;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: 0 160px;
 }
 

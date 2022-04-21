@@ -1,0 +1,50 @@
+/* Media Query - Rules */
+/* Tablet 768px */
+
+@media (max-width: 768px) {
+    div {
+        margin-left: 1em;
+    }
+}
+    
+/* Mobile L - 425px */
+
+@media (max-width: 425px) {
+    div {
+        display: none;
+    }
+
+    .placa-open{
+        width: 60% ;
+    }
+
+    section {
+        width: 85%;
+        padding: .5em 1.7em;
+    }
+
+    p {
+        font-size: 0.98em;
+    }
+
+    a {
+        font-size: 1.15em;
+        margin-bottom: 0.525em;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+/* Mobile S - 320px */
+
+@media (max-width: 320px) {
+    a {
+        font-size: 1.3em;
+        margin-bottom: 0.425em;
+    }
+}

@@ -65,7 +65,6 @@ nav {
 	padding-top:30px ;
 	display: flex;
 	justify-content: space-between;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 0 160px;
 }
 

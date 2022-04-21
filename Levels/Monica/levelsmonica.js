@@ -81,3 +81,4 @@ function redirecionar3() {
 function gameOver() {
     window.location.href = "../../End/gameOver.html";
 }
+

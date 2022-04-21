@@ -18,10 +18,9 @@ h1 {
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 40px;
-    
 }
 
-p{
+p {
     font-family: 'Nova Mono', monospace;
     font-size: 20px;
 }
@@ -65,7 +64,6 @@ nav {
 	padding-top:30px ;
 	display: flex;
 	justify-content: space-between;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: 0 160px;
 }
 

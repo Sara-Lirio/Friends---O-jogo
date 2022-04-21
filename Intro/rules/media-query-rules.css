@@ -1,0 +1,31 @@
+/* Media Query - Rules */
+/* Tablet 768px */
+
+@media (max-width: 768px) {
+    div {
+        margin-left: none;
+    }
+
+    section {
+        width: 85%;
+    }
+
+    ul {
+        font-size: 1em;
+        padding: 1.5em 2.5em;
+    }
+
+    .voltar,.jogar {
+    font-size: 1.15em;
+    margin-bottom: .9em;
+    }
+}
+
+/* Mobile L - 425px */
+
+@media (max-width: 425px) {
+    ul {
+        font-size: 0.8em;
+        padding: 1.3em 2.1em;
+    }
+}

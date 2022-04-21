@@ -1,4 +1,4 @@
-/* Media Query - Index,History e Rules */
+/* Media Query - Index */
 /* Tablet 768px */
 
 @media (max-width: 768px) {
@@ -65,8 +65,8 @@
     }
     
     a {
-        font-size: 19px;
+        font-size: 25px;
         padding: 0.4em 0.6em;
-        margin-bottom: 10px;
+        margin-bottom: 0.425
 }
 }

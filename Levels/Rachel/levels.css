@@ -18,10 +18,9 @@ h1 {
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 28px;
-    
 }
 
-p{
+p {
     font-family: 'Nova Mono', monospace;
     font-size: 17px;
     padding-top: 30px;
@@ -41,8 +40,7 @@ p{
 }
 
 .rachel-noiva{
-    width: 380px;
-    
+    width: 380px;  
 }
 
 .botao1, .botao2, .botao3{
@@ -55,8 +53,7 @@ p{
     padding: 0.5em 1em;
     list-style-type: none;
     background-color: rgb(179,74,88);
-    margin-left: 230px;
-    margin-top: 40px;
+    margin: 40px 0 0 230px;
 }
 
 .rachel-coffee, .rachel {
