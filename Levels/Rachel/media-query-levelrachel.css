@@ -1,0 +1,139 @@
+/* Media Query - Levels Rachel*/
+/* Tablet 768px */
+
+@media (max-width: 768px) {
+    .div-level1-texto, .div-level2-texto, .div-level3-texto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rachel-noiva {
+        width: 50%;
+        margin-left: 5em;
+    }
+
+    .botao1 {
+        margin: 1em 1em;
+    }
+
+    .level1-texto, .level2-texto, .level3-texto {
+        margin: 1em 1em;
+        padding: 1em 1.2em 0 1.2em;
+        width: 90%;
+    }
+
+    .div-level1-texto {
+        height: 48em;
+    }
+
+    .rachel-telefone {
+        width: 55%;
+        margin: 1em 9em;
+    }
+
+    .div-level2-texto {
+        height: 51.5em;
+    }
+
+    .botao2 {
+        margin: 1em 10em;
+    }
+
+    .rachel {
+        width: 50%;
+    }
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    .level1-texto, .level2-texto, .level3-texto {
+    margin: .9em .9em;
+    padding: 1em 1em 0 1em;
+    width: 92%;
+    }
+
+    .botao1, .botao2, .botao3 {
+        margin: 1em 7em;
+        font-size: 1.1em;
+    }
+
+    .div-level1-texto {
+        height: 52em;
+    }
+
+    .rachel-telefone {
+        margin: 1em 5em;
+    }
+
+    .div-level2-texto {
+        height: 56em;
+    }
+
+    .rachel {
+        width: 60%;
+        margin-left: 4em;
+    }
+
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    .div-level1-titulo,
+    .div-level1-texto {
+        width: 92%;
+        margin: 1em auto;
+    }
+
+    .div-level2-titulo,
+    .div-level2-texto {
+        width: 92%;
+        margin: 1em auto;
+    }
+
+    .div-level3-titulo,
+    .div-level3-texto {
+        width: 92%;
+        margin: 1em auto;
+    }
+
+    .div-level1-texto {
+        height: 54em;
+    }
+
+    .div-level2-texto {
+        height: 57em;
+    }
+}
+
+ /* Mobile S - 320px */
+ @media (max-width: 320px) { 
+    .div-level1-titulo,
+    .div-level1-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+
+    .div-level2-titulo,
+    .div-level2-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+
+    .div-level3-titulo,
+    .div-level3-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+
+    .div-level1-texto {
+        height: 56em;
+    }
+
+    .div-level2-texto {
+        height: 62em;
+    }
+
+    .botao1, .botao2, .botao3 {
+        margin: 1em 5em;
+    }
+}
