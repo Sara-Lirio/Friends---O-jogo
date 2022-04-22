@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(208,187,108);
+}
+
+.div-level1-titulo,
+.div-level1-texto {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 85%;
+	border-radius: 1em;
+	margin: 1em auto;
+}
+
+.div-level1-texto {
+	display: flex;
+    height: 32em;
+}
+
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.section-level1 {
+	margin-top: 1em;
+}
+
+p {
+	font-family: 'Nova Mono', monospace;
+	margin: 1em 1em;
+	padding: 3em 3em 0 3em;
+    width: 60%;
+}
+
+.imagem-botao div {
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+	justify-content: space-evenly;
+}
+
+.botao1 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-family: 'Cuprum', sans-serif;
+	color: white;
+	border: 2px black solid;
+	border-radius: 0.8em;
+	padding: 0.5em 1em;
+	list-style-type: none;
+	background-color: rgb(81, 116, 173);
+    margin: 1em 3em;
+}
+
+.rachel-noiva{
+   width: 70%;
+}

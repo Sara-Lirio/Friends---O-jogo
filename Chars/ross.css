@@ -64,7 +64,7 @@ section {
 nav {
 	padding-top:30px ;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
     margin-left: 0 160px;
 }
 

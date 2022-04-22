@@ -1,0 +1,222 @@
+/* Media Query - Levels Ross*/
+/* Tablet 768px */
+
+@media (max-width: 768px) {
+    .div-level1-texto, .div-level2-texto, .div-level3-titulo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ross-rachel {
+        display: none;
+    }
+
+    .texto-level1 {
+        margin: 0;
+        padding: 1.8em 1.1em 0 1.8em;
+    }
+
+    .texto-level2 {
+        margin: none;
+        padding: 1.1em 0.8em 1.2em;
+    }
+
+    .texto-level3 {
+        width: 100%;
+    }
+
+    .titulo-level3{
+        margin-left: 1em;
+    }
+
+    .botao1 {
+        margin: 2em 12.2em;
+        font-size: 1.3em;
+    }
+
+    .div-level2-texto {
+        height: 58em;
+    }
+
+    .lagosta{
+        width: 50%;
+        margin: .5em 7em;
+    }
+
+    .botao2 {
+        margin: 1em 13em;
+        font-size: 1.3em;
+    }
+
+    .ross-fine{
+        width: 20rem;
+        margin-top: 1em;
+        margin-left: 11em;
+     }
+
+    .botao3, .botao4 {
+        margin: 1em 0em 1em 11em;
+    }
+
+    .ross4 {
+        width: 50%;
+        margin-left: 9em;
+    }
+
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    .botao1 {
+        margin: 2em 7em;
+        font-size: 1.1em;
+    }
+
+    .botao2 {
+        margin: 1em 7em;
+        font-size: 1.1em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .div-level2-texto {
+        height: 74em;
+    }
+
+    .lagosta{
+        margin: 0 6em;
+    }
+
+    .div-level1-texto {
+        height: 40em;
+    }
+
+    .ross2 {
+        width: 65%;
+        margin-left: 4em;
+    }
+
+    .ross-fine{
+        width: 17rem;
+        margin-top: 1em;
+        margin-left: 3.2em;
+     }
+
+    .botao3, .botao4 {
+        margin: 1em 0em 1em 7em;
+        font-size: 1.1em;
+    }
+
+    .titulo-level3, .titulo-level4{
+        margin-left: 0.1em;
+        padding: auto;
+        width: 100%;
+    }
+
+    .texto-level3, .texto-level4{
+        padding: 1em 0;
+        width: 89%;
+    }
+    
+    .ross4 {
+        width: 45%;
+        margin-left: 6em;
+    }
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    .div-level1-texto {
+        height: 40em;
+    }
+
+    .div-level2-texto {
+        height: 78em;
+    }
+
+
+    .div-level1-titulo,
+    .div-level1-texto {
+        width: 91%;
+        margin: 1em auto;
+    }
+
+    .div-level2-titulo,
+    .div-level2-texto {
+        width: 91%;
+        margin: 1em auto;
+    }
+
+    .div-level3-titulo,
+    .div-level3-texto {
+        width: 91%;
+        margin: 1em auto;
+    }
+    
+    .div-level4-titulo,
+    .div-level4-texto {
+        width: 91%;
+        margin: 1em auto;
+    }
+
+
+    .ross-fine{
+        width: 15rem;
+        
+     }
+
+    .botao1, .botao2, .botao3, .botao4 {
+        margin: 1em 6em;
+    }
+
+   
+}
+
+  /* Mobile S - 320px */
+  @media (max-width: 320px) { 
+    .div-level1-titulo,
+    .div-level1-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+    .botao1, .botao2, .botao3, .botao4 {
+        margin: 1em 5em;
+    }
+
+    .div-level2-titulo,
+    .div-level2-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+   
+
+    .div-level3-titulo,
+    .div-level3-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+    .div-level4-titulo,
+    .div-level4-texto {
+        width: 300px;
+        margin: 1.2em auto;
+    }
+
+    .lagosta{
+        margin: 0 4em;
+    }
+
+    .div-level2-texto {
+        height: 85.5em;
+    }
+
+    .div-level1-texto {
+        height: 42em;
+    }
+
+    .ross-fine{
+        width: 14rem;
+        margin:0em 2.7em;
+     }
+}
