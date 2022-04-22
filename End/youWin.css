@@ -13,7 +13,7 @@ body{
 }
 
 .imagens {
-    margin: 40px 0 0 390px;
+    margin: 01em 19em;
     width: 40%;
 }
 
@@ -35,5 +35,6 @@ h1 {
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;
     padding: 10px 12px;
-    margin: 40px 0 0 560px;
+    margin: 80px 0 10px 410px;
 }
+
