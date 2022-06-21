@@ -36,7 +36,7 @@ Dica: Dica: Preste atenção nas histórias contadas! A maioria das respostas es
 
 A maior instruções de todas:<strong> DIVIRTA-SE!!</strong><br/>
 
-<h3>JOGUE AQUI : </h3>https://sara-lirio.github.io/Friends---O-jogo/
+<h3>▶️ JOGUE AQUI : </h3>https://sara-lirio.github.io/Friends---O-jogo/
 
 ## ☕ Imagens do Jogo
 
